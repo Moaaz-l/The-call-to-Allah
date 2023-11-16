@@ -4,7 +4,7 @@ function Login() {
   return (
     <div className="Login">
       <div className="Title-page">
-       <img src="logo.png"></img>
+       <a href="/Home"><img src="logo.png"></img></a>
        <p>الدعوة الى الله</p>
       </div>
       <form className="Bar-right">

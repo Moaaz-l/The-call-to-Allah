@@ -4,7 +4,7 @@ import Notifications from "./Notifications";
 function Chat() {
   return (
     <div>
-      <a href="/Home" className="back">
+      <a href="/" className="back">
         <FaArrowLeft />
       </a>
       <Notifications />

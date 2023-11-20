@@ -11,7 +11,7 @@ function Home() {
       <div>
         <div className="Bar-left">
           <img src={logo} className="logo-page"></img>
-          <a href="/Home" className="Home-link">
+          <a href="/" className="Home-link">
             <FaHome className="icons" />
           </a>
           <br />

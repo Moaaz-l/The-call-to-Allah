@@ -3,7 +3,7 @@ import { FaArrowLeft } from "react-icons/fa";
 function Help() {
   return (
     <div className="Help-page">
-      <a href="/Home" className="back">
+      <a href="/" className="back">
         <FaArrowLeft />
       </a>
     </div>

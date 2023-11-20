@@ -4,7 +4,7 @@ import Notifications from "./Notifications";
 function Setting() {
   return (
     <div className="Setting">
-      <a href="/Home" className="back">
+      <a href="/" className="back">
         <FaArrowLeft />
       </a>
       <div>

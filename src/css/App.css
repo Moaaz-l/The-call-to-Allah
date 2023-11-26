@@ -122,27 +122,25 @@ button {
 .Bar-left {
   background-color: #fbfbfb;
   position: absolute;
-  width: 50px;
-  margin: 0;
+  width: 100%;
   padding: 10px 0px;
-  height: 98%;
+  height: 100%;
   border-right: solid 1px #b1aeae;
 }
 
 a {
-  font-size: 16px;
+  font-size: 32px;
   font-weight: bold;
   font-family: Arial, sans-serif;
-  margin-right: 10px;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 25px;
   transition: background-color 0.3s ease;
   text-decoration: none;
-  margin-left: 15px;
-  margin: -6px;
   background-color: #f2f2f2;
   color: #000;
-  position: relative;
+  width: 5%;
+  height: 6%;
+  left: 0;
 }
 
 a:hover {
@@ -151,7 +149,7 @@ a:hover {
 }
 
 a svg {
-  margin: -3px;
+  margin: -6px;
 }
 
 .Login {
@@ -172,13 +170,24 @@ a svg {
 }
 
 .Setting-link {
-  top: 76.5%;
+  margin-left: 65%;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
 }
 .Home-link {
-  bottom: 1%;
+  margin-left: 57%;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 .Help-link {
-  top: 76.5%;
+  margin-left: 10%;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.Chat-link {
+  margin-left: 10%;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 .back {
   top: 19px;
@@ -274,4 +283,21 @@ a svg {
 }
 .Open {
   left: 74.3%;
+}
+.window-welcome {
+  box-sizing: border-box;
+  width: 700px;
+  height: 700px;
+  background-color: azure;
+  display: flex;
+  position: absolute;
+  border-radius: 3%;
+  opacity: 1;
+}
+.Bar-top {
+  width: 100%;
+  position: absolute;
+  top: 90%;
+  height: 43px;
+  background-color: #fbfbfb;
 }

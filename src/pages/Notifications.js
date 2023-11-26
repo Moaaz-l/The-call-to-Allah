@@ -5,10 +5,12 @@ import { useState } from "react";
 function Notifications() {
   const [isNotification, setIsNotification] = useState("h Close");
   useEffect(() => {
-    setTimeout(() => {
-      setIsNotification("h Open");
-    }, 3000);
-  }, []);
+    if (isNotification === "h Open") {
+      setTimeout(() => {
+        setIsNotification("h Open");
+      }, 3000);
+    }
+  }, [isNotification]);
   return (
     <div className="Notifications">
       <div className="send">

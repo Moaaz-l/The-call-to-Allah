@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 // import logo from "../images/logo.png";
-import { FaWindowClose } from "react-icons/fa";
+import { FaHome, FaRocketchat, FaQuestionCircle, FaCog } from "react-icons/fa";
 import "../css/App.css";
 import Notifications from "./Notifications";
 import setIsNotification from "./Notifications";
@@ -14,7 +14,7 @@ function Home() {
 
         </div>
       </div>
-      {/* <div>
+      <div>
         <div className="Bar-left">
           <img src={logo} className="logo-page"></img>
           <a href="/" className="Home-link">
@@ -45,7 +45,7 @@ function Home() {
         <a href="/Video">
           <p>فيديوهات</p>
         </a>
-      </div>  */}
+      </div> 
       <Notifications />
     </div>
   );
